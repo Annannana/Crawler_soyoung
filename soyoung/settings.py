@@ -37,8 +37,8 @@ COOKIES_ENABLED = False  # protect private info
 
 DOWNLOADER_MIDDLEWARES = {
     '{}.middlewares.RandomUserAgentMiddleware'.format(BOT_NAME): 100,
-    # '{}.middlewares.RandomProxyMiddleware'.format(BOT_NAME): 101,
-    '{}.middlewares.MaYiProxyMiddleware'.format(BOT_NAME): 101,
+    '{}.middlewares.RandomProxyMiddleware'.format(BOT_NAME): 101,
+    # '{}.middlewares.MaYiProxyMiddleware'.format(BOT_NAME): 101,
     # '{}.middlewares.DuoBeiProxyMiddleware'.format(BOT_NAME): 101,
 }
 
